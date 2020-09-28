@@ -1,0 +1,232 @@
+$finder-collapse-height: 156px;
+$medium: 700px;
+
+.finder {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),  url(../../assets/dish5.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    .container {
+        border-radius: 16px;
+
+        padding: 32px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.7);
+
+        .title-logo {
+
+            position: relative;
+            right: 16px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .logo {
+                width: 100px;
+                height: 100px;
+                color: white;
+
+                margin-right: 24px;
+
+                position: relative;
+                bottom: 32px;
+            }
+
+            .title {
+                padding: -100px;
+                font-family: FushaBrush;
+    
+                color: white;
+                font-size: 64px;
+                margin-bottom: 32px;
+            }
+        }
+    
+        .searchboxes {
+
+            @media screen and (max-width: $medium) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            label {
+                input {
+                    color: rgb(59, 18, 18);
+                }
+            }
+            .input-text {
+                input {
+                    width: 240px;
+                    height: 40px;
+                    font-family: KitchenHome;
+
+                    font-size: 24px;
+                    padding-left: 8px;
+
+                }
+            }
+            .btn-submit {
+                input {
+                    width: 264px;
+                    height: 40px;
+                    font-family: KitchenHome;
+
+                    font-size: 24px;
+                    padding-left: 8px;
+                }
+            }
+
+        }
+
+        .checkboxes {
+            margin-top: 24px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            label {
+                font-family: KitchenHome;
+                font-size: 16px;
+
+                color: white;
+
+                margin: 8px;
+
+                input {
+                    position: relative;
+                    top: 4px;
+                    margin-left: 8px;
+
+                }
+
+            }
+        }
+
+    }
+}
+
+.dummy {
+    height: $finder-collapse-height;
+    width: 100vw; 
+}
+.finder-collapsed {
+    @extend .finder;
+
+    background-image: none;
+    height: $finder-collapse-height;
+    width: 100vw;
+    justify-content: flex-start;
+
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+
+    .container {
+        border-radius: 8px;
+        background-color: rgba(0, 0, 0, 0.85);
+
+        height: 100%;
+        width: 100vw;
+
+        .title-logo {
+
+            position: relative;
+            right: 16px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .logo {
+                width: 32px;
+                height: 32px;
+                color: white;
+
+                margin-right: 24px;
+
+                position: relative;
+                bottom: 8px;
+            }
+
+            .title {
+                padding: -100px;
+                font-family: FushaBrush;
+    
+                color: white;
+                font-size: 32px;
+                margin-bottom: 8px;
+            }
+        }
+        
+        .searchboxes {
+
+            .input-text {
+                input {
+                    width: 200px;
+                    height: 32px;
+
+                    font-size: 16px;
+                    padding-left: 8px;
+
+                }
+            }
+
+            .btn-submit {
+                input {
+                    width: 224px;
+                    height: 32px;
+
+                    font-size: 16px;
+                    padding-left: 8px;
+
+                }
+            }
+        }
+
+        .checkboxes {
+            margin-top: 6px;
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            label {
+                font-family: KitchenHome;
+                font-size: 12px;
+
+                color: white;
+                margin: 8px;
+
+                input {
+                    position: relative;
+                    top: 4px;
+                    margin-left: 8px;
+                }
+
+            }
+        }
+
+    }
+}

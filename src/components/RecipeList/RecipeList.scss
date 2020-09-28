@@ -1,0 +1,94 @@
+.recipelist {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    ul {
+
+        padding-top: 64px;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        list-style-type: none;
+        width: 80vw;
+
+        li {
+            width: 332px;
+
+            border-radius: 16px;
+
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+
+            background-color: rgba(0, 0, 0, 0.7);
+            margin: 24px 8px;
+            color: white;
+
+            .title-section {
+                height: 96px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                width: 100%;
+
+                border-top-right-radius: 16px;
+                border-top-left-radius: 16px;
+    
+                h2 {
+                    margin: 16px;
+                    font-family: KitchenHome;
+
+                    font-size: 24px;
+                    color: black;
+                }
+                margin-bottom: 16px;
+
+
+            }
+
+            .recipe-content {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;
+                margin: 16px 16px;
+
+                height: 128px;
+
+                img {
+                    max-width: 128px;
+                    max-height: 128px;
+                }
+                .ingredients {
+                    font-family: Petrona-Regular;
+    
+                    margin: 16px;
+                    display: flex;
+                    font-size: 16px;
+                    margin-bottom: 8px;
+                    color: white;
+                }
+            }
+            .link {
+                font-size: 18px;
+                margin-bottom: 16px;
+                font-family: FushaBrush;
+                a {
+                    text-decoration: none;
+                    color: white;                    
+                }
+            }
+        }
+    }
+}

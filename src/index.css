@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Petrona-Regular';
+  src: local('Petrona-Regular'), url('./assets/Petrona-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FushaBrush';
+  src: local('FushaBrush'), url('./assets/FushaBrush.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'KitchenHome';
+  src: local('KitchenHome'), url('./assets/KitchenHome.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'YummyCupcakes';
+  src: local('YummyCupcakes'), url('./assets/YummyCupcakes.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
