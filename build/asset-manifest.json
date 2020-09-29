@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/puppy-api-recipe-finder/static/css/main.ad9a2c84.chunk.css",
+    "main.js": "/puppy-api-recipe-finder/static/js/main.8bce4fab.chunk.js",
+    "main.js.map": "/puppy-api-recipe-finder/static/js/main.8bce4fab.chunk.js.map",
+    "runtime-main.js": "/puppy-api-recipe-finder/static/js/runtime-main.1454b7fb.js",
+    "runtime-main.js.map": "/puppy-api-recipe-finder/static/js/runtime-main.1454b7fb.js.map",
+    "static/js/2.28630ee3.chunk.js": "/puppy-api-recipe-finder/static/js/2.28630ee3.chunk.js",
+    "static/js/2.28630ee3.chunk.js.map": "/puppy-api-recipe-finder/static/js/2.28630ee3.chunk.js.map",
+    "index.html": "/puppy-api-recipe-finder/index.html",
+    "precache-manifest.aa4659a28991beebeca3d8804035412d.js": "/puppy-api-recipe-finder/precache-manifest.aa4659a28991beebeca3d8804035412d.js",
+    "service-worker.js": "/puppy-api-recipe-finder/service-worker.js",
+    "static/css/main.ad9a2c84.chunk.css.map": "/puppy-api-recipe-finder/static/css/main.ad9a2c84.chunk.css.map",
+    "static/js/2.28630ee3.chunk.js.LICENSE.txt": "/puppy-api-recipe-finder/static/js/2.28630ee3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/puppy-api-recipe-finder/static/media/YummyCupcakes.ee65ac26.ttf",
+    "static/media/chef.svg": "/puppy-api-recipe-finder/static/media/chef.ffb2a572.svg",
+    "static/media/App.scss": "/puppy-api-recipe-finder/static/media/dish1.bc2294f9.jpg",
+    "static/media/RecipeFinder.scss": "/puppy-api-recipe-finder/static/media/dish5.7fb95eef.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1454b7fb.js",
+    "static/js/2.28630ee3.chunk.js",
+    "static/css/main.ad9a2c84.chunk.css",
+    "static/js/main.8bce4fab.chunk.js"
+  ]
+}
