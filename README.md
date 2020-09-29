@@ -16,8 +16,11 @@ dietary restrictions. Results are presented as a list of stylish recipe cards.
 # Building/Running
 Install project dependencies
 <br>
+ 
 ```npm install```
 <br>
+ 
 Start the app by running:
+ 
 <br>
 ```npm start```
