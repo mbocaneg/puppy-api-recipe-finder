@@ -3,7 +3,7 @@ https://mbocaneg.github.io/puppy-api-recipe-finder/
 <br>
 <br>
 <br>
-![Alt text](https://github.com/mbocaneg/puppy-api-recipe-finder/tree/master/screenshots/recipe_finder_screenshot.png)
+![Alt text](https://github.com/mbocaneg/puppy-api-recipe-finder/blob/master/screenshots/recipe_finder_screenshot.png)
 <br>
 
 # Recipe Finder
