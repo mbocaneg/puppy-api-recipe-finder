@@ -1,5 +1,10 @@
 # Demo
 https://mbocaneg.github.io/puppy-api-recipe-finder/
+<br>
+<br>
+<br>
+![alt text](https://github.com/mbocaneg/puppy-api-recipe-finder/tree/master/screenshots/recipe_finder_screenshot.png)
+<br>
 
 # Recipe Finder
 A react based WebApp that queries and fetches recipes from the Recipe-Puppy Api.
