@@ -22,5 +22,4 @@ Install project dependencies
  
 Start the app by running:
  
-<br>
 ```npm start```
